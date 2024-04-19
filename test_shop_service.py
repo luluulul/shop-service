@@ -38,7 +38,7 @@ def test_update_reader_city(shops: ShopIn = shops):
         name=shops.name,
         phone=shops.phone,
         city=shops.city,
-        count_students=shops.count_students,
+        country=shops.country,
         id=1
     )
     assert dict(shops_upd) == {'name': shops.name,
